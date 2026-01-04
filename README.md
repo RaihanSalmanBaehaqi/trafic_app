@@ -1,6 +1,6 @@
 # 🚗 Groningen Traffic Analysis Dashboard
 
-**Link:** : https://trafic-groningen.streamlit.app/
+**Link:** https://trafic-groningen.streamlit.app/
 
 Aplikasi web untuk **prediksi kecepatan kendaraan** dan **klasifikasi status lalu lintas** di Kota Groningen menggunakan Machine Learning.
 
