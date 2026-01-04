@@ -1,5 +1,7 @@
 # 🚗 Groningen Traffic Analysis Dashboard
 
+**Link:** : https://trafic-groningen.streamlit.app/
+
 Aplikasi web untuk **prediksi kecepatan kendaraan** dan **klasifikasi status lalu lintas** di Kota Groningen menggunakan Machine Learning.
 
 ## 📋 Deskripsi Project
@@ -33,7 +35,7 @@ Project ini merupakan TUBES UAS mata kuliah **Data Science dan Analisis** yang b
 ### Regression Models (Prediksi Kecepatan)
 | Model | R² Score | RMSE | Status |
 |-------|----------|------|--------|
-| Random Forest | 0.9946 | 1.10 | Best |
+| Random Forest | 0.9946 | 1.10 | ✅ Best & Deployed |
 | Gradient Boosting | 0.9934 | 1.23 | ✅ Deployed |
 | KNN | 0.9207 | 4.24 | ✅ Deployed |
 
@@ -54,6 +56,7 @@ streamlit_app/
 ├── data/
 │   └── groningen.csv     # Dataset
 └── models/
+    ├── regression_random_forest.pkl
     ├── regression_gradient_boosting.pkl
     ├── regression_knn.pkl
     ├── clustering_k-means.pkl
